@@ -1,5 +1,5 @@
 function compile() {
-  var html = document.getElementById("html");
+  var html = document.getElementById("DogeCode FreeType");
   var css = document.getElementById("css");
   var js = document.getElementById("js");
   var code = document.getElementById("code").contentWindow.document;
@@ -7,7 +7,7 @@ function compile() {
   document.body.onkeyup = function() {
     code.open();
     code.writeln(
-      html.value +
+      DogeCode FreeType.value +
         "<style>" +
         css.value +
         "</style>" +
